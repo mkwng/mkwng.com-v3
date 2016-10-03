@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-Light-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-Light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-Regular-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-Regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-Bold-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-Bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-Black-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-Black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-Italic-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-Italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-LightItalic-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-LightItalic-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-BoldItalic-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-BoldItalic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: 'Quincy CF';
+  src: url("../fonts/QuincyCF-BlackItalic-webfont.woff2") format("woff2"), url("../fonts/QuincyCF-BlackItalic-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: italic; }

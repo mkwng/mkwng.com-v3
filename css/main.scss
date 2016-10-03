@@ -1,0 +1,145 @@
+$bg: #EBE5DF;
+$dg: #312D3B;
+$dg-80: #474357;
+$dg-60: #646171;
+$dg-40: #848591;
+$dg-20: #D6D1CF;
+$br: #A46554;
+$br-80: #B36D5F;
+$pr: #57304A;
+$pr-80: #714569;
+$or: #F88879;
+$or-80: #FB967C;
+
+body {
+  /* http://stackoverflow.com/questions/32660748/how-to-use-apples-new-san-francisco-font-on-a-webpage */
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: $bg;
+  color: $dg;
+}
+
+a {
+  color: $or;
+  text-decoration: none;
+}
+a:hover {
+  color: $or-80;
+  text-decoration: underline;
+}
+
+.flex {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.fonts-loaded .quincy {
+  font-family: 'Quincy CF';
+}
+
+
+.w-17 {  width:  17%; }
+.w-67 {  width:  67%; }
+@media screen and (min-width: 30em) { 
+  .w-17-ns {  width: 17%; } 
+  .w-67-ns {  width: 67%; } 
+}
+
+.f7 { font-size: .70rem; }
+@media screen and (min-width: 30em) { .f7-ns { font-size: .70rem; } }
+
+.h-100vh { height:100vh; }
+
+.color-bg { color: $bg; }
+.color-dg { color: $dg; }
+.color-dg-80 { color: $dg-80; }
+.color-dg-60 { color: $dg-60; }
+.color-dg-40 { color: $dg-40; }
+.color-dg-20 { color: $dg-20; }
+.color-br { color: $br; }
+.color-pr { color: $pr; }
+.color-or { color: $or; }
+.color-br-80 { color: $br-80; }
+.color-pr-80 { color: $pr-80; }
+.color-or-80 { color: $or-80; }
+
+.bg-bg { background-color: $bg; }
+.bg-dg { background-color: $dg; }
+.bg-dg-80 { background-color: $dg-80; }
+.bg-dg-60 { background-color: $dg-60; }
+.bg-dg-40 { background-color: $dg-40; }
+.bg-dg-20 { background-color: $dg-20; }
+.bg-br { background-color: $br; }
+.bg-pr { background-color: $pr; }
+.bg-or { background-color: $or; }
+.bg-br-80 { background-color: $br-80; }
+.bg-pr-80 { background-color: $pr-80; }
+.bg-or-80 { background-color: $or-80; }
+
+.tldr.fl { transform-origin: top left; }
+.tldr.fr { transform-origin: top right; }
+
+.overflow-hidden { overflow:hidden; }
+
+::selection {
+  background:$dg;
+  color:#ffffff;
+}
+
+#studies .study {
+  cursor: pointer;
+  &:hover {
+    h3 {
+      color:$or;
+    }
+  }
+}
+
+.study .back {
+  width:3.25rem;
+  height:3.25rem;
+  line-height:3.25rem;
+  &:hover {
+    text-decoration: none;
+    color:#ffffff;
+    background-color: $or-80;
+  }
+}
+
+.client-logo {
+  position:relative;
+  &::before {
+    content:"";
+    display:block;
+    width:1.25rem;
+    height:1.25rem;
+    position:absolute;
+    transform: rotate(45deg) translate(-50%,-50%);
+    transform-origin: 50% 50%;
+  }
+  &.point-up::before { transform-origin: 0 0; top:0;left:50%; }
+  &.point-left::before { top:50%;left:.5rem; }
+  &.point-right::before { top:50%;right:.5rem; }
+  &.point-down::before { transform-origin: 0 0; bottom:0;left:50%; }
+
+  @media screen and (min-width: 30em) { 
+    &.color-br::before { background-color:$br; }
+    &.color-pr::before { background-color:$pr; }
+    &.color-or::before { background-color:$or; }
+    &.color-dg::before { background-color:$dg; }
+    &.color-bg::before { background-color:$bg; } 
+  }
+
+}
+
+
+#intro {
+  min-height:75vh; 
+  background-image:url(../img/myface.png); 
+  background-position: 50% 10rem; 
+  background-repeat:no-repeat;
+  background-size: 20rem;
+
+  @media screen and (min-width: 30em) { 
+    background-size: 30rem;
+  }
+}
